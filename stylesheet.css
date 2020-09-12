@@ -1,0 +1,92 @@
+:root {
+    --cor-destaque:#FF2850;
+    --dark:#0B0225;
+    --light:#dedede;
+    --branco:#fff;
+}
+
+.container-fluid{
+    margin:0;
+    padding:0;
+}
+
+h1, h2, h3, h4, h5, h6{
+    color:var(--light);
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+}
+
+a, a:hover{
+    color: var(--cor-destaque)
+}
+
+body{
+    background: var(--dark);
+}
+
+footer{
+    color:var(--cor-destaque);
+    padding:20px;
+}
+
+.jumbotron{
+    margin-top:5%;
+    margin-bottom:5%;
+    padding: 50px;
+    background:var(--cor-destaque);
+    box-shadow: 1px 1px 5px var(--light);
+}
+
+button{
+    background:var(--branco);
+    color:var(--cor-destaque);
+    border:none;
+    padding: 5px 30px;
+    border-radius:5px;
+    font-weight: bold;
+}
+
+button:hover{
+    background:var(--dark);
+    color:var(--cor-destaque);
+}
+
+footer{
+    text-align:center;
+    font-style: italic;
+}
+
+/* to do's List */
+#app input{
+    border-radius:5px;
+    border:none;
+    padding:5px; 
+    color:var(--cor-destaque);  
+}
+
+#app ul{
+    padding-left:10px;
+}
+
+#app li{
+    margin:15px 0;
+    list-style-type: none;
+    font-size: 24px;
+    color:var(--branco);
+}
+
+#app a{
+    padding: 3px 10px ;
+    background: var(--branco);
+    color:var(--cor-destaque);
+    font-weight: bold;
+    font-size:18px;
+    border-radius:50%;
+    margin-left: 5px;
+    text-decoration: none;
+}
+
+#app a:hover{
+    background: var(--dark);    
+}
